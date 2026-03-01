@@ -25,7 +25,7 @@ export default function Navbar({} : Props) {
       <div className="w-full">
         <div className="flex items-center h-section gap-20">
           {/* Logo */}
-          <a href="/" className="font-bold italic text-lg hover:text-gray-600 transition-colors border-b-2 border-transparent hover:border-gray-600">
+          <a href="https://john-r-devoe.github.io/personal-site/" className="font-bold italic text-lg hover:text-gray-600 transition-colors border-b-2 border-transparent hover:border-gray-600">
             John DeVoe
           </a>
 
