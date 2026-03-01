@@ -7,7 +7,7 @@ interface Props {}
 export default function Contact({}: Props) {
   const contactInfo = {
     email: "jdevoe7@gatech.edu",
-    resume: "/Resume.pdf",
+    resume: "personal-site/Resume.pdf",
     linkedin: "https://www.linkedin.com/in/john-devoe/",
     github: "https://github.com/john-r-devoe",
   };
