@@ -59,6 +59,17 @@ export default function Projects({}: Props) {
       links: {
       },
       status: 'completed'
+    },
+    {
+      id: '5',
+      title: 'Achronia VTT',
+      description: 'A virtual tabletop for tabletop RPGs specializing in custom configuration for all game systems and an in-depth note-taking system.',
+      image: spendwise, //Could be anything, won't show
+      tags: ['Next.js', 'TypeScript', 'Steam SDK', 'P2P Networking', 'Tauri', 'Rust'],
+      links: {
+        demo: "https://eastern-legume-0fd.notion.site/Achronia-VTT-06fa888bfea38257a1e68113c1dd4581"
+      },
+      status: 'in-progress'
     }
   ];
 
