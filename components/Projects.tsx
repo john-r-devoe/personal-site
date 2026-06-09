@@ -45,7 +45,7 @@ export default function Projects({}: Props) {
       image: markov,
       tags: ['Next.js', 'TypeScript', 'Linear Algebra'],
       links: {
-        github: 'https://github.com/john-r-devoe/hack-25',
+        github: 'https://github.com/john-r-devoe/markov-stocks',
         demo: 'https://markov-chain-stock-prediction-git-main-john-devoes-projects.vercel.app/'
       },
       status: 'completed'
