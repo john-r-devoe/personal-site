@@ -8,6 +8,7 @@ import spoiler_alert from "@/public/spoileralert.png";
 import bizzin from "@/public/BizzIn.png";
 import markov from "@/public/markovchain.png";
 import spendwise from "@/public/spendwise.png";
+import oxide from "@/public/OxideEngine.jpeg";
 
 interface Props {
   
@@ -68,6 +69,17 @@ export default function Projects({}: Props) {
       tags: ['Next.js', 'TypeScript', 'Steam SDK', 'P2P Networking', 'Tauri', 'Rust'],
       links: {
         demo: "https://eastern-legume-0fd.notion.site/Achronia-VTT-06fa888bfea38257a1e68113c1dd4581"
+      },
+      status: 'in-progress'
+    },
+    {
+      id: '6',
+      title: 'Oxide Engine',
+      description: 'A high-performance backtesting engine for quantitative trading strategies. Built in Rust with a Python strategy layer via PyO3, enabling vectorized signal generation with a single FFI crossing per run.',
+      image: oxide,
+      tags: ['Rust', 'Python', 'PyO3', 'Quantitative Finance'],
+      links: {
+        github: 'https://github.com/john-r-devoe/OxideEngine',
       },
       status: 'in-progress'
     }
